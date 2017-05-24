@@ -1,3 +1,5 @@
+@Library('path')
+
 pipeline {
   agent any
   stages {
@@ -6,10 +8,10 @@ pipeline {
         script {
           for (int i=0; i < 3; i++)
           {
-                echo 'Hip, hip hurray!'
+              echo 'Hip, hip hurray!'
           }
         }
-        
+ 
       }
     }
   }
