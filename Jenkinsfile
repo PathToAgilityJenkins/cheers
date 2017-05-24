@@ -28,7 +28,7 @@ pipeline
     {
     	steps
     	{
-    		threeCheers
+    		threeCheers()
     	}
     }
     
